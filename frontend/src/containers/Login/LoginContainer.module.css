@@ -1,0 +1,10 @@
+.LoginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://eventsdemobucket.s3.us-east-2.amazonaws.com/images/login-background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

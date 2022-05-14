@@ -1,0 +1,31 @@
+{
+  "name": "events-api-oncel",
+  "version": "3.0.0",
+  "description": "Demo app with node js api and react frontend",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "cd backend/ && node server.js",
+    "build": "cd frontend/ && npm install && npm run build && cd ../backend/ && npm install"
+  },
+  "cacheDirectories": [
+    "backend/node_modules",
+    "frontend/node_modules"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mars/heroku-cra-node.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}

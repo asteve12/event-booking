@@ -1,0 +1,42 @@
+.Profile {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+  margin-top: -50px;
+  max-width: 900px;
+  flex-direction: column;
+}
+
+.UserInfo {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileButtons {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Labels {
+  width: 25%;
+  height: 100%;
+  text-align: left;
+}
+
+.Infos {
+  width: 25%;
+  height: 100%;
+  text-align: right;
+  font-weight: bold;
+}

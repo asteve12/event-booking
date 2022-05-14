@@ -1,0 +1,85 @@
+.Reservation {
+  width: 100%;
+  height: 240px;
+  border-top: 1px solid #92a0ac;
+  border-bottom: 1px solid #92a0ac;
+  display: flex;
+  padding: 2px;
+}
+
+.Title {
+  height: 20%;
+  font-size: 20px;
+}
+
+.Header {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.InfoSection {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.InfoActions {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Info {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.InfoLeft {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
+.InfoRight {
+  text-align: right;
+  width: 50%;
+  margin: auto;
+}
+
+.ImageDiv {
+  border-bottom: 2px solid black;
+  overflow: hidden;
+  width: 90%;
+  background-color: black;
+}
+
+.Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  object-fit: contain;
+  height: 200px;
+  resize: vertical;
+}
+
+@media (max-width: 1000px) {
+  .Image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Title {
+    font-size: 14px;
+  }
+
+  .InfoSection {
+    font-size: 12px;
+  }
+}

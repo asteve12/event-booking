@@ -1,0 +1,40 @@
+@value colors: "../../utils/colors.module.css";
+
+@value primary, secondary from colors;
+
+.HomeBackground {
+  background-image: url("https://eventsdemobucket.s3.us-east-2.amazonaws.com/images/home-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.HomeContainer {
+  display: flex;
+  height: auto;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 700px;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.HomeContainer > div {
+  margin: 12px 0 0 12px;
+}
+
+.CardStyle {
+  width: 30vw;
+  height: 300px;
+  margin-top: 16px;
+}
+
+@media (max-width: 1000px) {
+  .CardStyle {
+    width: 90vw;
+    height: 300px;
+    margin-top: 16px;
+  }
+}

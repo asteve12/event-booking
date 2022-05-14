@@ -1,0 +1,32 @@
+.Checkout {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  margin-top: -50px;
+  max-width: 900px;
+  flex-direction: column;
+}
+
+.EventInfo {
+  text-align: left;
+  width: 60%;
+}
+
+.ButtonDiv{
+  height: 100px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TotalPrice {
+  display: flex;
+  height:80px;
+  align-items: center;
+}

@@ -1,0 +1,104 @@
+.EventDetailsPage {
+  position: absolute;
+  z-index: 500;
+  background-color: black;
+  color: white;
+  width: 80%;
+  min-height: 1100px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px #323232;
+  border-radius: 5px;
+  padding: 20px;
+  left: 10%;
+  top: 5%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  overflow: unset;
+}
+
+.ImageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+.Image {
+  display: flex;
+  object-fit: contain;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 100%;
+  background-color: #151515;
+}
+
+
+.Button {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid;
+  background-color: #ec891f;
+  width: 300px;
+  height: 100px;
+}
+
+.Information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.Icons {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 20%;
+}
+
+.IconFont {
+  font-size: 40px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  text-align: right;
+  width: 50%;
+}
+
+.InfoSpan {
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .EventDetailsPage {
+    min-height: 700px;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+  }
+
+  .Image {
+    display: flex;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+  }
+
+  .IconFont {
+    font-size: 20px;
+  }
+
+  .InfoSpan {
+    font-size: 16px;
+  }
+}

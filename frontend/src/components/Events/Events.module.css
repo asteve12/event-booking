@@ -1,0 +1,11 @@
+.Events {
+  display: inline-grid;
+  width: 96%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+  .Events {
+    grid-template-columns: 1fr ;
+  }
+}
